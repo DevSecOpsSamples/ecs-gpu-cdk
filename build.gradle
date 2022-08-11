@@ -16,7 +16,6 @@ sonarqube {
         property "sonar.projectName", "ecs-gpu-cdk"
         property "sonar.projectKey", "ContainerOnAWS_ecs-gpu-cdk"
         property "sonar.organization", "containeronaws"
-        property "sonar.host.url", "https://sonarcloud.io"
         // property "sonar.host.url", "http://127.0.0.1:9000"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.sourceEncoding", "UTF-8"
