@@ -1,6 +1,6 @@
 # Sample project for ECS GPU Inference API
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=engel80_cdk-ecs-gpu&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=engel80_cdk-ecs-gpu) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=engel80_cdk-ecs-gpu&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=engel80_cdk-ecs-gpu)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_ecs-gpu-cdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_ecs-gpu-cdk) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ContainerOnAWS_ecs-gpu-cdk&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ContainerOnAWS_ecs-gpu-cdk)
 
 ## Table of Contents
 
