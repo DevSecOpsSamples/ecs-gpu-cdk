@@ -1,6 +1,6 @@
 apply plugin: 'base'
 apply plugin: 'org.sonarqube'
-archivesBaseName = 'cdk-ecs-ec2'
+archivesBaseName = 'ecs-gpu-cdk'
 
 buildscript {
     repositories {
@@ -13,9 +13,10 @@ buildscript {
 
 sonarqube {
     properties {
-        property "sonar.projectName", "cdk-ecs-gpu"
-        property "sonar.projectKey", "engel80_cdk-ecs-gpu"
-        property "sonar.organization", "engel80"
+        property "sonar.projectName", "ecs-gpu-cdk"
+        property "sonar.projectKey", "ContainerOnAWS_ecs-gpu-cdk"
+        property "sonar.organization", "containeronaws"
+        property "sonar.host.url", "https://sonarcloud.io"
         // property "sonar.host.url", "http://127.0.0.1:9000"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.sourceEncoding", "UTF-8"
@@ -26,7 +27,7 @@ sonarqube {
         property "sonar.issue.ignore.multicriteria", "e1"
         property "sonar.issue.ignore.multicriteria.e1.ruleKey", "typescript:S1848"
         property "sonar.issue.ignore.multicriteria.e1.resourceKey", "**/*.ts"
-        property "sonar.links.ci", "https://github.com/engel80/cdk-ecs-gpu"
+        property "sonar.links.ci", "https://github.com/engel80/ecs-gpu-cdk"
         property "sonar.log.level", "DEBUG"
     }
 }
