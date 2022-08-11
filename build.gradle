@@ -21,7 +21,7 @@ sonarqube {
         property "sonar.sourceEncoding", "UTF-8"
         property "sonar.sources", "."
         property "sonar.python.version", "3.9"
-        property "sonar.exclusions", "**/node_modules/**"
+        property "sonar.exclusions", "**/node_modules/**, **/cdk.out/**"
         // property "sonar.cpd.exclusions", "**/*index.ts"
         property "sonar.issue.ignore.multicriteria", "e1"
         property "sonar.issue.ignore.multicriteria.e1.ruleKey", "typescript:S1848"
