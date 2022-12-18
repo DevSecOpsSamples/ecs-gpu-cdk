@@ -1,0 +1,21 @@
+name: Build
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  build-cpu-api:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: cd cpu-api && docker build . --tag cpu-api:$(date +%s)
+  build-gpu-api:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: cd gpu-api && docker build . --tag cpu-api:$(date +%s)
